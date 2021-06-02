@@ -1,0 +1,24 @@
+// main: ../style.css
+
+
+
+
+.social {
+        display: flex;
+        margin-bottom: 42px; 
+}
+
+.social__link {
+    display: inline-block;
+    margin-right: 10px;
+
+    text-decoration: none;
+    font-size: 35px;
+    color: @gray;
+    transition: transform .1s linear, color .1s linear;
+
+        &:hover {
+            color: @black;
+            transform: rotate(15deg);
+        }
+}
